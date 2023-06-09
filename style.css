@@ -294,9 +294,9 @@ text {
 
 
 .section-1-text {
-   grid-area: 2 / 3 / 4 / 4;
+grid-area: 2 / 2 / 3 / 5; 
  width: 20em;
-  text-align: left;
+  text-align: center;
   font-family: caveat;
   font-size: 3em;
   color: #6D7675;
