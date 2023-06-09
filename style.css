@@ -295,7 +295,7 @@ text {
 
 .section-1-text {
    grid-area: 2 / 3 / 4 / 4;
-  max-width: 10em;
+  max-width: 20em;
   text-align: left;
   font-family: caveat;
   font-size: 3em;
