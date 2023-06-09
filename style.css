@@ -294,7 +294,7 @@ text {
 
 
 .section-1-text {
-   grid-area: 2 / 1 / 6 / 3;
+   grid-area: 2 / 3 / 4 / 4;
   max-width: 10em;
   margin-top: calc(0.25 * 100vw - 175px);
   text-align: left;
