@@ -299,9 +299,10 @@ text {
   margin-top: calc(0.25 * 100vw - 175px);
   text-align: left;
   font-family: caveat;
-  font-size: 1.5em;
+  font-size: 3em;
   color: #6D7675;
   font-weight: bold;
+    
 }
 
 
