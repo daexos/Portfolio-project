@@ -294,8 +294,8 @@ text {
 
 
 .section-1-text {
-grid-area: 2 / 2 / 3 / 5; 
- width: 20em;
+grid-area: 3 / 1 / 4 / 6;
+ width: 15em;
   text-align: center;
   font-family: caveat;
   font-size: 3em;
