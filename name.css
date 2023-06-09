@@ -1,0 +1,64 @@
+@font-face {
+    font-family:kalam;
+    src: url('Kalam-Bold.ttf');
+}
+
+
+
+svg.name {
+    position: absolute;
+    top: 0;
+align-self: center;
+  transform: translatex(-8%);
+
+
+
+    .name_text {
+        display: none;
+    }
+    &.go {
+        .name_text {
+            font-family:kalam;
+            font-size: 37px;
+            text-transform: uppercase;
+            display: block;
+          
+
+
+        }
+        .text-stroke {
+            fill: none;
+            stroke: #51256f;
+            stroke-width: 0.25em;
+            stroke-dashoffset: -900;
+            stroke-dasharray: 900;
+            stroke-linecap: butt;
+            stroke-linejoin: round;
+            animation: dash 2.5s ease-in-out forwards;
+        }
+        .text-stroke:nth-child(2) {
+            animation-delay: .3s;
+        }
+        .text-stroke:nth-child(3) {
+            animation-delay: .9s;
+        }
+        .text-stroke-2 {
+            stroke: #F8C8DC;
+            animation-delay: 1.2s;
+        }
+        .text-stroke:nth-child(5) {
+            animation-delay: 1.5s;
+        }
+        .text-stroke:nth-child(6) {
+            animation-delay: 1.8s;
+        }
+    }
+}
+.text1{transform: translateX(8.5%);}
+.text2{transform: translateY(3%);}
+
+@keyframes dash {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
